@@ -1,0 +1,106 @@
+@font-face {
+        font-family: radion;
+        src: url(radion.ttf);
+}
+#title{
+        color: black;
+        font-family: radion;
+        font-size: 80px;
+        text-align: center;
+        padding-top: 70px;
+        padding-bottom: 50px;
+        letter-spacing: 6px;
+}
+.cardBack{
+        width: 250px;
+        height: 400px;
+        padding-top: 10px;
+}
+
+.card{
+        width: 230px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+}
+
+#firstColor{
+        height: 375px;
+}
+
+.cardImg{
+        width: 210px;
+        height: 210px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.card-body{
+        font-family: radion;
+        letter-spacing: 2px;
+}
+
+.btns{
+        height: 35px;
+        background-color: white;
+        border-radius: 15.2px;
+        border-color: black;
+        border-width: 1px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-family: radion;
+        letter-spacing: 2px;
+}
+
+#btnDiv{
+        text-align: center;
+}
+
+#sel{
+        background-color: white;
+        border-width: 1px;
+        border-color: black;
+        color: black;
+        border-radius: 15.2px;
+        padding: 5px;
+        letter-spacing: 2px; 
+}
+
+.drops{
+        padding-left: 60px;
+        font-family: radion;
+        padding-top: 20px;
+}
+
+.coloris{
+        border-radius: 5px;
+        border-color: transparent;
+        text-align: center;
+        font-size: 18px;
+        letter-spacing: 2px;
+        cursor: pointer;
+}
+
+.square{
+        border-radius: 5px;
+        border-width: 2px;
+        cursor: pointer;
+}
+
+.icon{
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+}
+
+.x{
+        float: right;
+        border: none;
+        background-color: transparent;
+        font-family: radion;
+        font-size: 20px;
+}
+
