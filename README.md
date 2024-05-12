@@ -1,11 +1,21 @@
-# color-palette
+# Color Palette
 
-Simple html/css/javascript project to work as a functional color palette creator. 
+Color palette is a simple static html/js/css website that allows users to create a simple color palette. 
+
+## Demo
+https://watermelonpop.github.io/color-palette/
 
 
-## Getting Started
+## Features
 
-Running the files or going to https://watermelonpop.github.io/color-palette/, should show a website with 3 color swatches, each with a shade selector, a lock button, and an x button. Below these swatches will be an add button and a generate button. Each swatch also displays the hex code and color name, along with a color wheel element. The add button adds another swatch to the palette, and the generate button changes out the swatches for a new one. The shade selector allows you to filter the colors of a specified swatch(ie if you only want red shades, etc.) But it can be left at the default state of "all shades". The lock button allows you to save colors you want to keep in your palette, while generating another color for the "unlocked" swatches. The x button allows you to get rid of a color swatch(ie you only want 2 swatches rather than 3). The color wheel element allows the user to change the shade to a specified hex code or rgb values. It also comes with a color bar and a transparency bar. This element allows the user to copy the hex code of each swatch.
+- Generates randomized color swatches for the palette
+- Gives users 3 colors in the palette
+- Users can delete or add colors to the palette
+- Shade select inputs on each swatch so the user can narrow down what general color to search for
+- Lock button on each swatch to keep the color in the palette, even when the generate button is clicked
+- Swatches includes color inputs, to change the swatch to a specific color
+    - input takes hex code, and a visual color picker
+
 
 ## Usage
 
